@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -101,6 +106,10 @@ footer a {
   color: white;
   opacity: 0.5;
   text-decoration: none;
+}
+
+footer p {
+  opacity: 0.8;
 }
 
 @media (max-width: 960px) {
