@@ -223,6 +223,10 @@ footer p {
 }
 
 @media (max-width: 960px) {
+  section {
+    padding: 10px;
+  }
+
   header {
     padding: 60px 0;
   }
